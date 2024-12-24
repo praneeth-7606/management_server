@@ -12,8 +12,7 @@ const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_KEY = process.env.SUPABASE_KEY;
 
 // Log for debugging
-console.log("Supabase URL:", SUPABASE_URL);
-console.log("Supabase Key:", SUPABASE_KEY);
+
 
 // Validate Supabase credentials
 if (!SUPABASE_URL || !SUPABASE_KEY) {
